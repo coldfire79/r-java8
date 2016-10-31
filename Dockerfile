@@ -6,3 +6,4 @@ MAINTAINER JOON-YONG LEE <joonyong.lee@pnnl.gov>
 RUN apt-get update -y && \
 	apt-get install default-jre -y
 
+CMD ['R']
